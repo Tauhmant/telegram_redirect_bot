@@ -7,7 +7,7 @@ BOT_TOKEN = os.getenv("BOT_TOKEN")
 
 # Replace with your group/chat IDs
 SOURCE_CHAT_IDS = [-1001683017303, -1001039041151, -1002176178671, -1001751504041 ]  # Add source group/channel IDs
-TARGET_GROUP_ID = 2397940295  # Replace with the target group ID
+TARGET_GROUP_ID = -1002397940295  # Replace with the target group ID
 
 # -1001683017303 - Японский художник Avogado6
 # -1001039041151 - Daigaku - Японский язык
