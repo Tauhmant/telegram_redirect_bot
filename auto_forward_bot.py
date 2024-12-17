@@ -1,8 +1,9 @@
 from telegram import Update
 from telegram.ext import ApplicationBuilder, ContextTypes, MessageHandler, filters
+import os
 
 # Replace with your bot's token
-BOT_TOKEN = "7947925384:AAGk8Pyxy76m34jQkH_Wbdrfwzpz51u7MhA"
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 
 # Replace with your group/chat IDs
 SOURCE_CHAT_IDS = [-1001683017303, -1001039041151, -1002176178671, -1001751504041 ]  # Add source group/channel IDs
