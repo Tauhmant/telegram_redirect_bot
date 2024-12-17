@@ -1,4 +1,4 @@
-name: Run Telegram Bot Every 3 Hours
+name: Run Telegram Bot Every 30 Minutes
 
 on:
   schedule:
